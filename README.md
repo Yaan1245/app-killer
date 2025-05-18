@@ -35,7 +35,8 @@
 ---
 
 ### 🧩 Step 2: Install Shizuku
-
+🔴**setup videos on**: [YT WATCH]
+(https://youtube.com/shorts/DLphMCEZSqE?si=V6Gr--hg58G9zFyQ)
 - **GitHub**: [Shizuku/releases](https://github.com/RikkaApps/Shizuku/releases)  
 - **Official Site**: [shizuku.rikka.app](https://shizuku.rikka.app/download/)  
 - **Play Store**: [Shizuku on Play Store](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api)
