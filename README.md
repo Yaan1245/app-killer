@@ -51,26 +51,26 @@
 
 ## 📡 Setup Shizuku on Android 10+ (Wireless Debugging)
 
-1. **Connect your device** to any **Wi-Fi** and turn on a **mobile hotspot** (needed for pairing).  
+1. **Connect your device** to any **Wi-Fi 🛜** OR connect **mobile hotspot 🛜** (needed for pairing).  
 2. Open **Shizuku App** → **Grant all required permissions**.  
-3. Tap **"Pairing"** section → Click the **blue button** (Developer Options).  
+3. Tap **"Pairing 🔗"** section → Click the **blue button 🟦** (Developer Options).  
 4. **Enable Developer Options**, scroll down:
-    - Enable **USB debugging**
-    - Enable **Wireless debugging**  
-    *(If you can't enable Wireless Debugging, see PC setup below)*  
-5. Tap the **" | "** icon beside Wireless Debugging → opens full menu.  
-6. Tap **"Pair device with pairing code"** → Enter the 6-digit code shown.  
+    - Enable **USB debugging ✔️**
+    - Enable **Wireless debugging ✔️**  
+    *(⚠️If  Wireless Debugging option not available then , use PC setup shizuku)*  
+5. Tap the **" | "** icon beside Wireless Debugging → opens full menu 📃.  
+6. Tap **"Pair 🔗📲 device with pairing code"** → Enter the 6-digit code shown.  
     - **IMPORTANT**: Don’t close the code screen until paired!  
-    - If no popup shows: scroll from the top, open notification, then enter code there.  
-7. Once paired, you’ll see **Shizuku** in the "Paired devices" list.  
-8. Return to **Shizuku home**, tap **Start** (blue button).  
-9. You’ll now see **"Shizuku is running"** at the top!  
+    - If no popup shows: scroll from the top, open notification 🔔, then enter code there.  
+7. Once paired 📲🔗✔️, you’ll see **Shizuku** in the "Paired devices" list.  
+8. Return to **Shizuku home**, tap **Start** (blue button 🟦).  
+9. You’ll now see **"Shizuku is running"** at the top! 🤩😎🤗 
 
 > **Note**:  
-> If a **red warning** appears under "Shizuku is running" — go to **Settings**, search and enable:  
-> **"Disable permission monitoring"**
+> If a **red warning⚠️💀📃** appears under "Shizuku is running" — go to **Settings ⚙️**, search and enable✅:  
+> **"Disable permission monitoring 👀"**
 
-You're now ready to use **Shizuku-API** in other apps/scripts.
+You're now ready to use **Shizuku-API** in other apps/scripts 🔥❤️‍🔥👨‍🚀.
 
 ---
 
