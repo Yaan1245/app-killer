@@ -25,6 +25,8 @@
 
 ## 🚀 Installation & Usage
 
+🔴**termux tutorial**: [YT WATCH 🎥📸](https://youtube.com/shorts/CQb2CHg9rKg?si=zRhEUVMkBy2mD01B)
+
 ### 📦 Step 1: Install Termux
 
 - **GitHub**: [termux-app/releases](https://github.com/termux/termux-app/releases)  
