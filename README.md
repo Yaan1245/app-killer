@@ -7,35 +7,78 @@
 
 ## ✨ Features & Advantages
 
-- 🔋 **Save Battery**  
-  Stops unnecessary background processes draining your device's power.
-
-- ⚡ **Boost Performance**  
-  Frees up RAM and CPU by killing non-essential apps, making your phone smoother.
-
-- 🛡️ **Enhance Security**  
-  Terminates unauthorized apps running silently in the background.
-
-- 🔧 **ADB-Free Automation**  
-  No need for root or a PC — control everything using **Shizuku** + **Termux** combo.
+- 🔋 **Save Battery** – Stop unnecessary background processes draining your device’s power.  
+- ⚡ **Boost Performance** – Free up RAM and CPU by killing non-essential apps.  
+- 🛡️ **Enhance Security** – Kill unauthorized apps running silently in the background.  
+- 🔧 **ADB-Free Automation** – No root required — just Shizuku + Termux.
 
 ---
 
 ## ⚙️ Requirements
 
-- Android device with **Shizuku** installed and active  
-- **Termux** app (latest version)  
-- Basic permissions granted for `adb shell content` access via Shizuku
+- Android 10 or above (best with Android 11+ for wireless debugging)  
+- **Shizuku** app (active and running)  
+- **Termux** installed  
+- Internet access (for setup and repo clone)
 
 ---
 
 ## 🚀 Installation & Usage
 
-1. **Install Shizuku** from [official site](https://shizuku.rikka.app/)
-2. **Enable Shizuku** and allow access via wireless debugging (or root mode)
-3. Open **Termux** and clone this repo:
+### 📦 Step 1: Install Termux
+
+- **GitHub**: [termux-app/releases](https://github.com/termux/termux-app/releases)  
+- **F-Droid**: [f-droid.org Termux](https://f-droid.org/en/packages/com.termux/)
+
+> **Note**: ❌ **Do NOT use the Play Store version** — it's outdated and unsupported.
+
+---
+
+### 🧩 Step 2: Install Shizuku
+
+- **GitHub**: [Shizuku/releases](https://github.com/RikkaApps/Shizuku/releases)  
+- **Official Site**: [shizuku.rikka.app](https://shizuku.rikka.app/download/)  
+- **Play Store**: [Shizuku on Play Store](https://play.google.com/store/apps/details?id=moe.shizuku.privileged.api)
+
+> **Note:**  
+> i) Also available on F-Droid  
+> ii) Recommended: Android 11+ for Wireless Debugging  
+> iii) Android 10 or lower requires PC for setup (mini guide below)
+
+---
+
+## 📡 Setup Shizuku on Android 10+ (Wireless Debugging)
+
+1. **Connect your device** to any **Wi-Fi** and turn on a **mobile hotspot** (needed for pairing).  
+2. Open **Shizuku App** → **Grant all required permissions**.  
+3. Tap **"Pairing"** section → Click the **blue button** (Developer Options).  
+4. **Enable Developer Options**, scroll down:
+    - Enable **USB debugging**
+    - Enable **Wireless debugging**  
+    *(If you can't enable Wireless Debugging, see PC setup below)*  
+5. Tap the **" | "** icon beside Wireless Debugging → opens full menu.  
+6. Tap **"Pair device with pairing code"** → Enter the 6-digit code shown.  
+    - **IMPORTANT**: Don’t close the code screen until paired!  
+    - If no popup shows: scroll from the top, open notification, then enter code there.  
+7. Once paired, you’ll see **Shizuku** in the "Paired devices" list.  
+8. Return to **Shizuku home**, tap **Start** (blue button).  
+9. You’ll now see **"Shizuku is running"** at the top!  
+
+> **Note**:  
+> If a **red warning** appears under "Shizuku is running" — go to **Settings**, search and enable:  
+> **"Disable permission monitoring"**
+
+You're now ready to use **Shizuku-API** in other apps/scripts.
+
+---
+
+## ⚔️ Setup app-killer in Termux
+
+1. Open **Termux** and run:
 
    ```bash
+   pkg install git
    git clone https://github.com/yourusername/app-killer.git
    cd app-killer
    chmod +x app-killer.sh
+   ./app-killer.sh
